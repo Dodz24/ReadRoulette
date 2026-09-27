@@ -11,25 +11,33 @@ looks exactly like what it is.
 
 At least six entries. One per real use. Every entry needs a commit link.
 
-### YYYY-MM-DD - short title
+### 2026-09-27 - Project dependencies
 
-- **Tool:**
-- **What I asked for:**
-- **What it gave back:**
-- **What I kept, what I changed, and why:**
-- **Commit:** https://github.com/YOUR-USERNAME/YOUR-REPO/commit/SHA
+- **Tool**: ChatGPT. ClaudeAI
+- **What I asked for**: Help identifying the Flutter dependencies needed for ReadRoulette, especially for connecting to the AniList API and saving data locally.
+- **What it gave back:**It explained that http could be used for API requests and shared_preferences could be used for local storage.
+- **What I kept, what I changed, and why:**I kept the suggested packages and added them to pubspec.yaml. I used them because ReadRoulette needs API communication and local storage.
+- **Commit:** https://github.com/Dodz24/ReadRoulette/commit/b55faf45759dcf32c524454a9d8934c579ae8be5
+
+### 2026-09-27 - Home filter state
+
+- **Tool**: ChatGPT. ClaudeAI
+- **What I asked for**: An explanation of how the existing Home Filter screen handles selected genres and the selected manga format..
+- **What it gave back:**It explained how _selectedGenres, _formatIndex, and setState() work together to update the interface.
+- **What I kept, what I changed, and why:**I kept the existing implementation instead of replacing it. I mainly used the explanation to understand how the current code works.
+- **Commit:** https://github.com/Dodz24/ReadRoulette/commit/e0825f96f5c7494583ce12e217e97d16cb51068d
 
 ## 2. Where the AI got it wrong
 
 Three cases. Be specific. If you write that the AI was never wrong, this section
 scores zero.
 
-### Case 1 - short title
+### Case 1 - Oversimplified Home Filter
 
-- **What it gave me:**
-- **What was wrong with it:**
-- **What I did instead:**
-- **Commit:** https://github.com/YOUR-USERNAME/YOUR-REPO/commit/SHA
+- **What it gave me:**AI suggested a simplified version of the Home Filter screen with fewer parts than the required ReadRoulette implementation.
+- **What was wrong with it:**The simplified version removed functionality needed for genre selection, format selection, loading state, and the roulette action.
+- **What I did instead:**I kept the required functionality and made sure the Home Filter screen included the genre controls, format selection, loading state, and roulette button.
+- **Commit:** https://github.com/YOUR-USERNAME/YOUR-REPO/commit/SHA](https://github.com/Dodz24/ReadRoulette/commit/e0825f96f5c7494583ce12e217e97d16cb51068d
 
 ## 3. Who wrote what
 
