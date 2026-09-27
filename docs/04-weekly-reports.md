@@ -25,6 +25,6 @@ Copy this block:
 **Hours spent, roughly:**
 
 **Next week I will:**
--
+- Start the actual implementation of my app. 
 
 ---
