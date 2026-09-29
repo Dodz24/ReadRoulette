@@ -12,11 +12,7 @@ const _genres = [
 ];
 const _formats = ['Manga', 'Manhwa', 'Both'];
 
-/// Owns the currently selected genres and format. Because this is a
-/// StatefulWidget kept alive in an IndexedStack (see RootShell), this
-/// selection survives both a tab switch and a Result-screen push/pop,
-/// matching the revised proposal's "state persists on back" behaviour -
-/// without needing to lift state any higher.
+
 class HomeFilterScreen extends StatefulWidget {
   const HomeFilterScreen({super.key});
 
