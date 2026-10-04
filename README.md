@@ -42,35 +42,67 @@ A repo without screenshots reads as abandoned, whatever the code says.
 
 Three to five bullets. What can a user actually do?
 
-- ...
-- ...
-- ...
+- Lets users choose one or more manga/manhwa genres such as Romance, Action, Fantasy, Comedy, Drama, Horror, and Slice of Life.
+- Lets users filter between Manga, Manhwa, or Both.
+- Uses the AniList GraphQL API to randomly recommend a title based on the selected filters.
+- Shows the recommended title's cover, title, genres, chapter count, country of origin, and synopsis.
+- Lets users spin again, save titles, and view recently viewed titles.
 
 ## Built with
 
 | | |
 | --- | --- |
 | Framework | Flutter (Dart) |
-| State | `setState` / provider / riverpod (say which) |
-| Storage | shared_preferences / Hive / Drift / Firebase / Supabase / other |
-| Other packages | list the ones that matter, with a word on why |
+| State | `setState` |
+| API | AniList GraphQL API |
+| HTTP | http |
+| Storage | shared_preferences |
+| Device preview | device_preview |
+| UI | Material 3 |
+| Deployment | GitHub Pages |
+
+
+## Project Structure
+
+lib/
+├── main.dart
+├── theme.dart
+├── models/
+│   └── manga_title.dart
+├── screens/
+│   ├── home_filter_screen.dart
+│   ├── result_screen.dart
+│   ├── root_shell.dart
+│   └── saved_history_screen.dart
+├── services/
+│   └── anilist_service.dart
+├── storage/
+│   └── title_store.dart
+└── widgets/
+    ├── back_arrow_button.dart
+    ├── bottom_nav_bar.dart
+    ├── format_toggle.dart
+    ├── genre_chip.dart
+    ├── list_item_card.dart
+    ├── primary_button.dart
+    └── result_card.dart
 
 ## Running it yourself
 
-```bash
-flutter pub get
-cp .env.example .env      # only if your app needs keys, see below
-flutter run -d web-server --web-port 8080
-```
+Make sure Flutter is installed, then run:
 
-Then open http://localhost:8080. Requires Flutter (run `flutter --version` and
-put yours here).
+  `flutter pub get`
+  `flutter run -d chrome`
+
+- The project does not require an .env file or an API key.
+
+- The app uses the public AniList GraphQL API for manga and manhwa data
 
 ### Environment variables
 
-This project reads its configuration from a `.env` file that is **not** in the
-repository. Copy `.env.example`, fill in your own values, and never commit the
-result.
+- This project does not currently use environment variables.
+
+- No API key or secret is required to access the AniList GraphQL API used by ReadRoulette.
 
 | Variable | What it is | Where to get one |
 | --- | --- | --- |
@@ -78,14 +110,11 @@ result.
 
 ## Privacy and secrets
 
-Required section. Two or three honest sentences:
+- ReadRoulette does not require users to create an account or provide personal information. Saved titles and recently viewed titles are stored locally on the user's device using shared_preferences.
 
-- What personal data this app stores, if any, and where it goes.
-- Where the secrets live (`.env` locally, repository secrets in the deploy
-  workflow) and what protects the data on the service side (Firestore rules,
-  Supabase RLS, or "nothing leaves the device").
-- Confirm that all sample data, screenshots and the video contain **no real
-  personal information**.
+- The app does not store API keys or private credentials. It requests manga and manhwa information from the public AniList GraphQL API.
+
+- Sample data, screenshots, and the project video should not contain real personal information.
 
 ## Project documentation
 
@@ -101,15 +130,24 @@ Required section. Two or three honest sentences:
 
 ## Status and what is next
 
-Be honest. What works, what is half done, what you would build next. An honest
-"known issues" section reads better than a claim the reader disproves in thirty
-seconds.
+- The main ReadRoulette features are working, including genre and format filtering, random title recommendations, result details, saving titles, and recently viewed history.
+
+- The project is currently being finalized for the 6ADET final presentation.
+
+
+## Possible future improvements include:
+
+- More filtering options
+- Better recommendation logic
+- More detailed title information
+- Better organization of saved titles
+- Additional discovery features
 
 ## Credits
 
-- Packages: see `pubspec.yaml`
-- Assets, icons, 3D models, sounds: name the author and the licence for each
-- People who helped, and how
+- AniList: Provides the manga and manhwa data through its public GraphQL API.
+- Packages: See pubspec.yaml for the complete list of dependencies.
+- AI assistance: Claude and ChatGPT were used as development assistants. See AI-USAGE.md for the complete disclosure.
 
 ## AI use
 
