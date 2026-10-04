@@ -10,7 +10,7 @@
 
 0:00 — 01:58 Introduction and App Demo
 
-01:59 = 04:42 Code Walkthrough
+01:59 - 04:42 Code Walkthrough
 
 04:43 - 09:36 AI-Usage
 
