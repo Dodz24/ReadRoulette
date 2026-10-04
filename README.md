@@ -8,7 +8,7 @@
 
 # ReadRoulette
 
-> One sentence: what this app does, and who it is for.
+> ReadRoulette instantly picks the perfect manga or manhwa from your custom filters so you can stop overthinking and start reading!
 
 **Live demo:** https://Dodz24.github.io/ReadRoulette/ <!-- GitHub Pages is set up already; replace if you host elsewhere -->
 
