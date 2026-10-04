@@ -8,21 +8,13 @@
 
 ## What it shows
 
-0:00 — Introduction, project overview, and the problem ReadRoulette solves
+0:00 — 01:58 Introduction and App Demo
 
-0:25 — Main app demo: Home screen, genre and format filters, random recommendation, result screen, Save, and Saved & History
+01:59 = 04:42 Code Walkthrough
 
-1:15 — Code walkthrough: project structure, state management, reusable widgets, AniList API service, local storage, and theme
+04:43 - 09:36 AI-Usage
 
-2:00 — AI usage: how Claude was used during development, including examples and mistakes
-
-4:00 — Challenges encountered while connecting the app's filters, API, result screen, and local storage
-
-4:20 — What I learned from the project
-
-4:30 — What's next for ReadRoulette
-
-4:40 — Closing
+09:37 - 11:18 Challenges, What I learned, What's Next?, Closing
 
 Cover, in this order: the main user journey end to end, anything that only works
 on a real device (camera, GPS, sensors), and the thing you are proudest of.
