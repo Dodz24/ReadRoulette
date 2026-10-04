@@ -30,11 +30,11 @@ personal data.
 Put two or three real screenshots at phone size in `docs/assets/`, then replace
 this paragraph with them:
 
-```markdown
+
 | Home | Results | Saved & History |
 | --- | --- | --- |
 | ![Home & Filter Screen](docs/assets/home-and-filter.png) | ![Result Screen](docs/assets/result-screen.png) | ![Saved & History Screen](docs/assets/saved-and-history.png) |
-```
+
 
 A repo without screenshots reads as abandoned, whatever the code says.
 
