@@ -64,6 +64,7 @@ Three to five bullets. What can a user actually do?
 
 ## Project Structure
 
+```
 lib/
 ├── main.dart
 ├── theme.dart
@@ -86,6 +87,7 @@ lib/
     ├── list_item_card.dart
     ├── primary_button.dart
     └── result_card.dart
+```
 
 ## Running it yourself
 
@@ -104,9 +106,6 @@ Make sure Flutter is installed, then run:
 
 - No API key or secret is required to access the AniList GraphQL API used by ReadRoulette.
 
-| Variable | What it is | Where to get one |
-| --- | --- | --- |
-| `EXAMPLE_API_KEY` | ... | ... |
 
 ## Privacy and secrets
 
