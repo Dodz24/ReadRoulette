@@ -4,7 +4,7 @@
 **Length:** aim for 3 to 5 minutes
 **Recorded on:** the device you used
 
-**Gdrive Link:** https://drive.google.com/drive/folders/1S8462fHPZ0WJ7rgjXMOgRHnReOEmrt0B
+**Gdrive Link:** https://drive.google.com/file/d/1sS6Jsh580fJG_hSUHAYI_rk5VUjcs-I4/view?usp=sharing
 
 ## What it shows
 
