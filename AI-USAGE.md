@@ -104,3 +104,6 @@
 - **Commit:** https://github.com/Dodz24/ReadRoulette/commit/0764c16961a1b6f0ebaaee5619de45af05abf6da
 - **What it does and why we kept it:** This handles communication with the AniList GraphQL API. It sends the selected filters, receives title data, and converts the response into MangaTitle objects that the rest of the application can use.
 
+
+Link to README.md AI Credit
+https://github.com/Dodz24/ReadRoulette/blob/main/README.md#ai-use
