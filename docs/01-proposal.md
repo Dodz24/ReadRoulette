@@ -1,8 +1,4 @@
-# Proposal
-
-Paste in the proposal you submitted, and replace it with the final version when
-the project is done. You do not need to keep it in sync week to week: nobody
-reads this folder until you hand the project in.
+#ReadRoulette
 
 Keep these headings so a reader can scan it:
 
