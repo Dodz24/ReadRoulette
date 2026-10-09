@@ -10,11 +10,11 @@
 
 **Where each tappable thing goes:**
 
-**Genre Chips (Romance, Action, Fantasy, etc.):** Toggle selected/unselected state in place, no navigation.
-**Format Toggle (Manga / Manhwa / Both):** Switches the selected format option in place, no navigation.
-**Spin the Roulette Button:** Navigates to the Result Screen.
-**Bottom Nav "Roulette" (active):** Stays on the Home / Filter Screen.
-**Bottom Nav "History":** Navigates to the Saved & History Screen.
+- **Genre Chips (Romance, Action, Fantasy, etc.):** Toggle selected/unselected state in place, no navigation.
+- **Format Toggle (Manga / Manhwa / Both):** Switches the selected format option in place, no navigation.
+- **Spin the Roulette Button:** Navigates to the Result Screen.
+- **Bottom Nav "Roulette" (active):** Stays on the Home / Filter Screen.
+- **Bottom Nav "History":** Navigates to the Saved & History Screen.
 ---
 
 ### 2. Saved & History Screen
