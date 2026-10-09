@@ -25,7 +25,7 @@
 
 ---
 
-## Week 1 September 14-20, 2026
+## Week 2 September 21-27, 2026
 
 **Done this week**
 
