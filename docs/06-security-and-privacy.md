@@ -8,6 +8,7 @@ part of grading.
 ## What this app stores
 
 | Data | Where it lives | Who can see it |
+| --- | --- | --- |
 | Saved manga and manhwa titles | Locally on the device using shared_preferences | Anyone with access to the device and its app data |
 | Recently viewed titles | Locally on the device using shared_preferences | Anyone with access to the device and its app data |
 | Manga and manhwa information, including titles, covers, genres, and synopsis | Retrieved from the public AniList GraphQL API and displayed in the app | Publicly available through AniList |
