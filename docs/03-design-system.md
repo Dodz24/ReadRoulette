@@ -47,18 +47,15 @@ class AppSpacing {
 
 ## Step D: Components, as files
 
-| Component | Level | File | Constructor Parameter | Appears On |
-|-----------|-------|------|-----------------------|------------|
-| Primary Button | Atom | `lib/widgets/primary_button.dart` | `String label, VoidCallback? onPressed, IconData? icon, bool isLoading` | Login, Home Dashboard, Submit Report, Report Details |
-| Text Input Field | Atom | `lib/widgets/text_input_field.dart` | `String label, String? hint, TextEditingController controller, bool obscureText, String? Function(String?)? validator, IconData? leadingIcon, IconData? trailingIcon, bool multiline` | Login, Submit Report |
-| Status Badge | Atom | `lib/widgets/status_badge.dart` | `String status, String label, bool onImage` | Home Dashboard (Report Card), Report Details (photo overlay) |
-| Detail Row | Atom | `lib/widgets/detail_row.dart` | `IconData icon, String label, String value` | Report Details |
-| Report Card | Molecule | `lib/widgets/report_card.dart` | `String reportTitle, String status, String date, String location, String? imageUrl, VoidCallback onTap` | Home Dashboard |
-| Image Upload Component | Molecule | `lib/widgets/image_upload.dart` | `String? image, VoidCallback onUpload, VoidCallback onRemove` | Submit Report |
-| Photo Evidence Viewer | Molecule | `lib/widgets/photo_evidence_viewer.dart` | `List<String> images, String? mapThumbnailUrl, String status` | Report Details |
-| Stat Summary Card | Molecule | `lib/widgets/stat_summary_card.dart` | `String label, int count, IconData icon, bool highlighted` | Home Dashboard |
-| Navigation Header | Organism | `lib/widgets/navigation_header.dart` | `String title, bool showBackButton, VoidCallback? onBack, List<Widget>? actions, bool showBrandIcon` | Home Dashboard, Submit Report, Report History, Report Details |
-| Detail Modal | Organism | `lib/widgets/detail_modal.dart` | `String title, VoidCallback onClose, Widget child, Widget? actionButton` | Report Details |
+| Component | File | Constructor Parameter | Appears On |
+|-----------|------|-----------------------|------------|
+| GenreChip | `lib/widgets/genre_chip.dart` | `{required String label, required bool selected, required VoidCallback onTap}` | Home/Filter Screen |
+| FormatToggle | `lib/widgets/format_toggle.dart` | `{required List options, required int selectedIndex, required ValueChanged onChanged}` | Home/Filter Screen |
+| PrimaryButton | `lib/widgets/primary_button.dart` | `{required String label, VoidCallback? onPressed, bool outlined = false}` | Home/Filter/Result Screen |
+| ResultCard | `lib/widgets/result_card.dart` | `{required String coverUrl, required String title, required List genres, required int chapters, required String synopsis}` | Result Screen |
+| ListItemCard | `lib/widgets/list_item_card.dart` | `{required String thumbnailUrl, required String title, required String year, required List genres, required VoidCallback onTap}` | Saved & History |
+| BottomNavBar | `lib/widgets/bottom_navbar.dart` | `{required int activeIndex, required ValueChanged onTap}` | All Screens |
+| BackArrowButton | `lib/widgets/back_arrow_button.dart` | `{required VoidCallback onPressed}` | Result Screen |
 
 ---
 
