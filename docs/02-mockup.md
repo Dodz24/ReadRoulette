@@ -19,7 +19,7 @@
 
 ### 2. Saved & History Screen
 
-<img src="assets/" alt="Login" width="390" />
+<img src="assets/saved-history-mockup.png" alt="Saved & History" width="390" />
 
 **What the user does here:** Browses titles they have manually saved or that were automatically logged from past spins.
 
@@ -35,7 +35,7 @@
 
 ### 3. Result Screen
 
-<img src="assets/" alt="Login" width="390" />
+<img src="assets/result-mockup.png" alt="Result" width="390" />
 
 **What the user does here:** Views one randomly generated title matching their selected filters and decides whether to save it, get another, or return.
 
