@@ -56,7 +56,7 @@
 
 ### 1. Home / Filter Screen
 
-<img src="assets/" alt="Login" width="390" />
+<img src="assets/home-filter-wireframe.png" alt="Home/Filter" width="390" />
 
 | Screen | Layout Notes | Inputs | Actions → Destination | Data Shown |
 |--------|--------------|--------|-----------------------|------------|
@@ -66,7 +66,7 @@
 
 ### 2. Result Screen
 
-<img src="assets/" alt="Login" width="390" />
+<img src="assets/result-wireframe.png" alt="Result" width="390" />
 
 | Screen | Layout Notes | Inputs | Actions → Destination | Data Shown |
 |--------|--------------|--------|-----------------------|------------|
@@ -76,7 +76,7 @@
 
 ### 3. Saved & History Screen
 
-<img src="assets/" alt="Login" width="390" />
+<img src="assets/saved-history-wireframe.png" alt="Saved & History" width="390" />
 
 | Screen | Layout Notes | Inputs | Actions → Destination | Data Shown |
 |--------|--------------|--------|-----------------------|------------|
