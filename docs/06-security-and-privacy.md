@@ -8,8 +8,12 @@ part of grading.
 ## What this app stores
 
 | Data | Where it lives | Who can see it |
-| --- | --- | --- |
-| e.g. the user's task list | on the device (shared_preferences) | only that user |
+| Saved manga and manhwa titles | Locally on the device using shared_preferences | Anyone with access to the device and its app data |
+| Recently viewed titles | Locally on the device using shared_preferences | Anyone with access to the device and its app data |
+| Manga and manhwa information, including titles, covers, genres, and synopsis | Retrieved from the public AniList GraphQL API and displayed in the app | Publicly available through AniList |
+| Genre and format selections | App state while using the app | The user; selected filters are sent to AniList when requesting recommendations |
+
+ReadRoulette does not require users to create an account or provide personal information. Saved and recently viewed lists are stored locally and are not uploaded to a ReadRoulette server.
 
 ## Secrets
 
