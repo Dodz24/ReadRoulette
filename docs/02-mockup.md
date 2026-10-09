@@ -4,7 +4,7 @@
 
 ### 1. Home / Filter Screen
 
-<img src="assets/" alt="Login" width="390" />
+<img src="assets/home-filter-mockup.png" alt="Home/Filter" width="390" />
 
 **What the user does here:** Selects one or more genres and a format (Manga, Manhwa, or Both) to narrow the pool of titles before generating a recommendation.
 
