@@ -1,11 +1,5 @@
 # Weekly reports
 
-One entry per week, newest at the top, written **during** that week. Five minutes
-each. They are the record of how the project actually went, and they make your
-final reflection almost write itself.
-
-Copy this block:
-
 ---
 
 ## Week 1 September 14-20, 2026
@@ -28,3 +22,33 @@ Copy this block:
 - Start the actual implementation of my app. 
 
 ---
+
+---
+
+## Week 1 September 14-20, 2026
+
+**Done this week**
+
+- I added the required dependencies to the project and built the Home/Filter screen where users can select genres and formats before spinning.
+- I created the MangaTitle model, Result screen structure, and ResultCard widget to handle displaying manga details.
+- I structured the project files cleanly into models, screens, services, storage, and widgets.
+- I updated the project documentation and prepared both the security checklist and AI usage log.
+
+**In progress**
+- Refining the user interface and setting up the remaining core app features for Week 3.
+
+**Blocked or stuck on**
+- My Git push was rejected due to remote changes; I had to resolve it by pulling with rebase before pushing successfully.
+- I spent extra time navigating how all separate screen, service, and widget files connect across the application architecture.
+
+**Decisions made, and why**
+- I decided to organize the project into distinct folders (models, screens, services, storage, widgets) early on to keep the codebase maintainable as features expand.
+- I decided to keep documentation updated in real-time alongside development rather than leaving it all for the end.
+
+**Hours spent, roughly:**
+
+**Next week I will:**
+- Implement the remaining features, complete local storage integration, and polish the user flow.
+
+---
+
