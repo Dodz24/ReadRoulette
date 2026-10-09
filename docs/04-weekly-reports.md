@@ -45,10 +45,36 @@
 - I decided to organize the project into distinct folders (models, screens, services, storage, widgets) early on to keep the codebase maintainable as features expand.
 - I decided to keep documentation updated in real-time alongside development rather than leaving it all for the end.
 
-**Hours spent, roughly:**
+**Hours spent, roughly:** Full week
 
 **Next week I will:**
 - Implement the remaining features, complete local storage integration, and polish the user flow.
 
+---
+---
+
+## Week 2 September 28 - October 4, 2026
+
+**Done this week**
+
+- Completed all core features and verified the full user flow across all app screens.
+- Checked and tested each screen to ensure UI consistency and smooth navigation.
+- Updated all required project documentation, logs, and checklists to reflect the final implementation.
+- Verified that the application builds and runs properly without errors.
+
+**In progress**
+- Final review of the project submission requirements and repository state.
+
+**Blocked or stuck on**
+- None during this week; focus was on testing, polishing, and completing documentation.
+
+**Decisions made, and why**
+- I decided to freeze major feature additions early in the week to focus entirely on testing, bug fixes, and documentation accuracy.
+- 
+**Hours spent, roughly:** Full week
+
+**Next week I will:**
+- Perform a final check on all files, prepare presentation materials if needed, and submit the final project.
+  
 ---
 
