@@ -12,7 +12,7 @@
 
 **Live demo:** https://Dodz24.github.io/ReadRoulette/ <!-- GitHub Pages is set up already; replace if you host elsewhere -->
 
-**Demo video:** `docs/demo.mp4` (link it here once it exists)
+**Demo video:** https://github.com/Dodz24/ReadRoulette/blob/main/docs/05-demo-video.md
 
 **Course:** Applications Development and Emerging Technologies (6ADET), Holy Angel University
 
